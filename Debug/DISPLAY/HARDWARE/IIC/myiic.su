@@ -1,0 +1,8 @@
+../DISPLAY/HARDWARE/IIC/myiic.c:80:6:IIC_Init	32	static
+../DISPLAY/HARDWARE/IIC/myiic.c:104:6:IIC_Start	8	static
+../DISPLAY/HARDWARE/IIC/myiic.c:122:6:IIC_Stop	8	static
+../DISPLAY/HARDWARE/IIC/myiic.c:141:4:IIC_Wait_Ack	16	static
+../DISPLAY/HARDWARE/IIC/myiic.c:167:6:IIC_Ack	8	static
+../DISPLAY/HARDWARE/IIC/myiic.c:185:6:IIC_NAck	8	static
+../DISPLAY/HARDWARE/IIC/myiic.c:203:6:IIC_Send_Byte	24	static
+../DISPLAY/HARDWARE/IIC/myiic.c:228:4:IIC_Read_Byte	24	static

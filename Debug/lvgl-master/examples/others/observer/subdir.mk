@@ -1,0 +1,45 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../lvgl-master/examples/others/observer/lv_example_observer_1.c \
+../lvgl-master/examples/others/observer/lv_example_observer_2.c \
+../lvgl-master/examples/others/observer/lv_example_observer_3.c \
+../lvgl-master/examples/others/observer/lv_example_observer_4.c \
+../lvgl-master/examples/others/observer/lv_example_observer_5.c \
+../lvgl-master/examples/others/observer/lv_example_observer_6.c \
+../lvgl-master/examples/others/observer/lv_example_observer_7.c 
+
+OBJS += \
+./lvgl-master/examples/others/observer/lv_example_observer_1.o \
+./lvgl-master/examples/others/observer/lv_example_observer_2.o \
+./lvgl-master/examples/others/observer/lv_example_observer_3.o \
+./lvgl-master/examples/others/observer/lv_example_observer_4.o \
+./lvgl-master/examples/others/observer/lv_example_observer_5.o \
+./lvgl-master/examples/others/observer/lv_example_observer_6.o \
+./lvgl-master/examples/others/observer/lv_example_observer_7.o 
+
+C_DEPS += \
+./lvgl-master/examples/others/observer/lv_example_observer_1.d \
+./lvgl-master/examples/others/observer/lv_example_observer_2.d \
+./lvgl-master/examples/others/observer/lv_example_observer_3.d \
+./lvgl-master/examples/others/observer/lv_example_observer_4.d \
+./lvgl-master/examples/others/observer/lv_example_observer_5.d \
+./lvgl-master/examples/others/observer/lv_example_observer_6.d \
+./lvgl-master/examples/others/observer/lv_example_observer_7.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+lvgl-master/examples/others/observer/%.o lvgl-master/examples/others/observer/%.su lvgl-master/examples/others/observer/%.cyclo: ../lvgl-master/examples/others/observer/%.c lvgl-master/examples/others/observer/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I"C:/Workspace/STM32DISPLAYSECONDTRY/lvgl-master" -I"C:/Workspace/STM32DISPLAYSECONDTRY/lvgl-master/src" -I../Core/Inc -I"C:/Workspace/STM32DISPLAYSECONDTRY/DISPLAY/HARDWARE/SDRAM" -I"C:/Workspace/STM32DISPLAYSECONDTRY/DISPLAY/USER" -I"C:/Workspace/STM32DISPLAYSECONDTRY/DISPLAY/HARDWARE/LED" -I"C:/Workspace/STM32DISPLAYSECONDTRY/DISPLAY/HARDWARE/IIC" -I"C:/Workspace/STM32DISPLAYSECONDTRY/DISPLAY/SYSTEM/delay" -I"C:/Workspace/STM32DISPLAYSECONDTRY/DISPLAY/SYSTEM/sys" -I"C:/Workspace/STM32DISPLAYSECONDTRY/DISPLAY/HARDWARE/LCD" -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-lvgl-2d-master-2f-examples-2f-others-2f-observer
+
+clean-lvgl-2d-master-2f-examples-2f-others-2f-observer:
+	-$(RM) ./lvgl-master/examples/others/observer/lv_example_observer_1.cyclo ./lvgl-master/examples/others/observer/lv_example_observer_1.d ./lvgl-master/examples/others/observer/lv_example_observer_1.o ./lvgl-master/examples/others/observer/lv_example_observer_1.su ./lvgl-master/examples/others/observer/lv_example_observer_2.cyclo ./lvgl-master/examples/others/observer/lv_example_observer_2.d ./lvgl-master/examples/others/observer/lv_example_observer_2.o ./lvgl-master/examples/others/observer/lv_example_observer_2.su ./lvgl-master/examples/others/observer/lv_example_observer_3.cyclo ./lvgl-master/examples/others/observer/lv_example_observer_3.d ./lvgl-master/examples/others/observer/lv_example_observer_3.o ./lvgl-master/examples/others/observer/lv_example_observer_3.su ./lvgl-master/examples/others/observer/lv_example_observer_4.cyclo ./lvgl-master/examples/others/observer/lv_example_observer_4.d ./lvgl-master/examples/others/observer/lv_example_observer_4.o ./lvgl-master/examples/others/observer/lv_example_observer_4.su ./lvgl-master/examples/others/observer/lv_example_observer_5.cyclo ./lvgl-master/examples/others/observer/lv_example_observer_5.d ./lvgl-master/examples/others/observer/lv_example_observer_5.o ./lvgl-master/examples/others/observer/lv_example_observer_5.su ./lvgl-master/examples/others/observer/lv_example_observer_6.cyclo ./lvgl-master/examples/others/observer/lv_example_observer_6.d ./lvgl-master/examples/others/observer/lv_example_observer_6.o ./lvgl-master/examples/others/observer/lv_example_observer_6.su ./lvgl-master/examples/others/observer/lv_example_observer_7.cyclo ./lvgl-master/examples/others/observer/lv_example_observer_7.d ./lvgl-master/examples/others/observer/lv_example_observer_7.o ./lvgl-master/examples/others/observer/lv_example_observer_7.su
+
+.PHONY: clean-lvgl-2d-master-2f-examples-2f-others-2f-observer
+

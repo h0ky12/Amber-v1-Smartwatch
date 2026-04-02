@@ -1,0 +1,7 @@
+../lvgl/src/widgets/spinner/lv_spinner.c:51:12:lv_spinner_create	1
+../lvgl/src/widgets/spinner/lv_spinner.c:59:6:lv_spinner_set_anim_params	1
+../lvgl/src/widgets/spinner/lv_spinner.c:89:6:lv_spinner_set_anim_duration	1
+../lvgl/src/widgets/spinner/lv_spinner.c:96:6:lv_spinner_set_arc_sweep	1
+../lvgl/src/widgets/spinner/lv_spinner.c:107:13:lv_spinner_constructor	1
+../lvgl/src/widgets/spinner/lv_spinner.c:118:13:arc_anim_start_angle	1
+../lvgl/src/widgets/spinner/lv_spinner.c:123:13:arc_anim_end_angle	1

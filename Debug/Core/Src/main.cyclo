@@ -1,0 +1,16 @@
+../Core/Src/main.c:80:6:DMA2D_CopyBuffer	1
+../Core/Src/main.c:106:6:my_flush_cb	2
+../Core/Src/main.c:139:13:my_input_read	2
+../Core/Src/main.c:163:5:main	1
+../Core/Src/main.c:279:6:SystemClock_Config	4
+../Core/Src/main.c:339:13:MX_DMA2D_Init	3
+../Core/Src/main.c:380:13:MX_I2C1_Init	4
+../Core/Src/main.c:428:13:MX_TIM2_Init	3
+../Core/Src/main.c:473:13:MX_FMC_Init	3
+../Core/Src/main.c:568:13:MX_GPIO_Init	1
+../Core/Src/main.c:640:6:vApplicationTickHook	1
+../Core/Src/main.c:644:6:LVGL	1
+../Core/Src/main.c:672:6:ReadEncoder	2
+../Core/Src/main.c:747:6:StartDefaultTask	1
+../Core/Src/main.c:760:6:MPU_Config	1
+../Core/Src/main.c:791:6:Error_Handler	1

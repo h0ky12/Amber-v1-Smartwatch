@@ -1,0 +1,5 @@
+../DISPLAY/HARDWARE/SDRAM/sdram.c:7:6:SDRAM_Init	40	static
+../DISPLAY/HARDWARE/SDRAM/sdram.c:36:6:SDRAM_Initialization_Sequence	24	static
+../DISPLAY/HARDWARE/SDRAM/sdram.c:110:4:SDRAM_Send_Cmd	48	static
+../DISPLAY/HARDWARE/SDRAM/sdram.c:132:6:FMC_SDRAM_WriteBuffer	24	static
+../DISPLAY/HARDWARE/SDRAM/sdram.c:146:6:FMC_SDRAM_ReadBuffer	24	static

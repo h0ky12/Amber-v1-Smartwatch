@@ -1,0 +1,6 @@
+../Core/Src/I2C_SHT3X.c:4:7:Temperature_Conversion	16	static
+../Core/Src/I2C_SHT3X.c:7:7:Humidity_Conversion	16	static
+../Core/Src/I2C_SHT3X.c:10:6:datchik_init	4	static
+../Core/Src/I2C_SHT3X.c:13:6:datchik_readtempandhumid	40	static
+../Core/Src/I2C_SHT3X.c:29:6:datchik_HeatOn	16	static
+../Core/Src/I2C_SHT3X.c:36:6:datchik_sendcommand	32	static

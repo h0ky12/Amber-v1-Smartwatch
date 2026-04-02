@@ -1,0 +1,4 @@
+../DISPLAY/SYSTEM/sys/sys.c:9:6:Cache_Enable	5
+../DISPLAY/SYSTEM/sys/sys.c:41:6:Stm32_Clock_Init	4
+../DISPLAY/SYSTEM/sys/sys.c:106:4:Get_ICahceSta	1
+../DISPLAY/SYSTEM/sys/sys.c:115:4:Get_DCahceSta	1

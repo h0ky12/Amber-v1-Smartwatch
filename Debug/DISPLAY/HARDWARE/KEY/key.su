@@ -1,0 +1,2 @@
+../DISPLAY/HARDWARE/KEY/key.c:80:6:KEY_Init	40	static
+../DISPLAY/HARDWARE/KEY/key.c:116:4:KEY_Scan	16	static

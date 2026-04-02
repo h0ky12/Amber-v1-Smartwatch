@@ -1,0 +1,2 @@
+../DISPLAY/HARDWARE/MPU/mpu.c:22:4:MPU_Set_Protection	1
+../DISPLAY/HARDWARE/MPU/mpu.c:47:6:MPU_Memory_Protection	1
